@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\benja\Do
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,8 +19,44 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Terminal Blocks
+LastFocusedTable=Capacitors
 [Table1]
+SchemaName=
+TableName=Capacitors
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Name0=90
+[Table2]
+SchemaName=
+TableName=Connectors
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Name0=90
+[Table3]
+SchemaName=
+TableName=ICs
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Name0=183|Library Ref0=90|Library Path0=99|Footprint Ref0=105|Footprint Path0=114|Supplier 10=86|Supplier Part Number 10=209|Manufacturer0=108|Manufacturer Part Number0=191|RoHS0=58|Description0=236|Category0=109|Stock 10=70|Pricing 10=294|Case/Package0=109|Min Operating Temperature0=197|Max Operating Temperature0=199|Interface0=169|Peripherals0=293|Memory Type0=110|Packaging0=87|Frequency0=88|Number of I/Os0=121|Memory Size0=104|Oscillator Type0=115|ComponentLink1URL0=430|ComponentLink1Description0=430|ComponentLink2URL0=638|ComponentLink2Description0=638
+[Table4]
+SchemaName=
+TableName=Resistors
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Name0=90
+[Table5]
 SchemaName=
 TableName=Terminal Blocks
 Enabled=True
@@ -28,16 +64,58 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Name0=90|Description0=518|Library Ref0=90|Supplier 10=86|Supplier Part Number 10=169|Manufacturer0=108|Manufacturer Part Number0=191|RoHS0=58|Category0=104|Stock 10=70|Pricing 10=846|Mount0=94|Contact Plating0=119|Contact Material0=127|Housing Color0=113|Housing Material0=130|Min Operating Temperature0=197|Max Operating Temperature0=199|Packaging0=87|Number of Rows0=127|Termination0=98|Number of Contacts0=149|Max Voltage Rating (AC)0=175|Orientation0=95|Max Supply Voltage (AC)0=177|Length0=68|Wire Gauge (Max)0=135|Wire Gauge (Min)0=133|Pitch0=55|Depth0=63|ComponentLink1URL0=613|ComponentLink1Description0=613|ComponentLink2URL0=579|ComponentLink2Description0=579|Color0=58|Plating0=67|Number of Levels0=132|Number of Positions Per Level0=209|Current0=72|Voltage0=72|Radiation Hardening0=150|Library Path0=145|Footprint Ref0=105|Footprint Path0=157
+BrowserOrder_Visible=Part Name0=90|Description0=518|Library Ref0=90|Library Path0=202|Footprint Ref0=105|Footprint Path0=215|Supplier 10=86|Supplier Part Number 10=169|Manufacturer0=108|Manufacturer Part Number0=191|RoHS0=58|Category0=104|Stock 10=70|Pricing 10=846|Mount0=94|Contact Plating0=119|Contact Material0=127|Housing Color0=113|Housing Material0=130|Min Operating Temperature0=197|Max Operating Temperature0=199|Packaging0=87|Number of Rows0=127|Termination0=98|Number of Contacts0=149|Max Voltage Rating (AC)0=175|Orientation0=95|Max Supply Voltage (AC)0=177|Length0=68|Wire Gauge (Max)0=135|Wire Gauge (Min)0=133|Pitch0=55|Depth0=63|ComponentLink1URL0=613|ComponentLink1Description0=613|ComponentLink2URL0=579|ComponentLink2Description0=579|Color0=58|Plating0=67|Number of Levels0=132|Number of Positions Per Level0=209|Current0=72|Voltage0=72|Radiation Hardening0=150
 [FieldMap1]
-Options=FieldName=Terminal Blocks.Part Name|TableNameOnly=Terminal Blocks|FieldNameOnly=Part Name|FieldType=0|ParameterName=Part Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Part Name|TableNameOnly=Capacitors|FieldNameOnly=Part Name|FieldType=0|ParameterName=Part Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Terminal Blocks.Description|TableNameOnly=Terminal Blocks|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Library Ref|TableNameOnly=Capacitors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Terminal Blocks.Library Ref|TableNameOnly=Terminal Blocks|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Library Path|TableNameOnly=Capacitors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Terminal Blocks.Library Path|TableNameOnly=Terminal Blocks|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Footprint Ref|TableNameOnly=Capacitors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Terminal Blocks.Footprint Ref|TableNameOnly=Terminal Blocks|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitors.Footprint Path|TableNameOnly=Capacitors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
+Options=FieldName=Connectors.Part Name|TableNameOnly=Connectors|FieldNameOnly=Part Name|FieldType=0|ParameterName=Part Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Connectors.Library Ref|TableNameOnly=Connectors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Connectors.Library Path|TableNameOnly=Connectors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Connectors.Footprint Ref|TableNameOnly=Connectors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Connectors.Footprint Path|TableNameOnly=Connectors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=ICs.Part Name|TableNameOnly=ICs|FieldNameOnly=Part Name|FieldType=0|ParameterName=Part Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=ICs.Library Ref|TableNameOnly=ICs|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=ICs.Library Path|TableNameOnly=ICs|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=ICs.Footprint Ref|TableNameOnly=ICs|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=ICs.Footprint Path|TableNameOnly=ICs|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=ICs.Description|TableNameOnly=ICs|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Resistors.Part Name|TableNameOnly=Resistors|FieldNameOnly=Part Name|FieldType=0|ParameterName=Part Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Resistors.Library Ref|TableNameOnly=Resistors|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=Resistors.Library Path|TableNameOnly=Resistors|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=Resistors.Footprint Ref|TableNameOnly=Resistors|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=Resistors.Footprint Path|TableNameOnly=Resistors|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=Terminal Blocks.Part Name|TableNameOnly=Terminal Blocks|FieldNameOnly=Part Name|FieldType=0|ParameterName=Part Name|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=Terminal Blocks.Description|TableNameOnly=Terminal Blocks|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=Terminal Blocks.Library Ref|TableNameOnly=Terminal Blocks|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=Terminal Blocks.Library Path|TableNameOnly=Terminal Blocks|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Terminal Blocks.Footprint Ref|TableNameOnly=Terminal Blocks|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
 Options=FieldName=Terminal Blocks.Footprint Path|TableNameOnly=Terminal Blocks|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
